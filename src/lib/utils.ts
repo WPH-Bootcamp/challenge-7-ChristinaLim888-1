@@ -1,0 +1,11 @@
+import { clsx, type ClassValue } from "clsx"
+import { twMerge } from "tailwind-merge"
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
+
+/*npm install clsx tailwind-merge 
+npm install class-variance-authority
+npm install lucide-react
+*/
