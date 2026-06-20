@@ -13,11 +13,11 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 import Hero from "@/components/sections/1.Hero";
-import TrustedCompanies from "@/components/sections/2.Trusted";
+import Brands from "@/components/sections/2.Trusted";
 import Statistics from "@/components/sections/3.Statistics";
 import Process from "@/components/sections/4.Process";
 import Services from "@/components/sections/5.Services";
-import Industry from "@/components/sections/6.Industry";
+import Industry from "@/components/sections/6.Industries";
 import Portfolio from "@/components/sections/7.Portfolio";
 import Testimonials from "@/components/sections/8.Testimonials";
 import Faq from "@/components/sections/9.Faq";
@@ -28,7 +28,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      {/* <TrustedCompanies /> */}
+      <Brands />
       {/* <Statistics /> */}
       {/* <Process /> */}
       {/* <Services /> */}
