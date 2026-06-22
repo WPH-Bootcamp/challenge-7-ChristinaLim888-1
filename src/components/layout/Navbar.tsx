@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X, Moon, Sun } from "lucide-react";
-
+import logo from "@/assets/image/logo-symbol.svg";
 import navLinks from "@/data/1.navLinks";
 // import { Button } from "../ui/button";
 
@@ -17,28 +17,19 @@ const Navbar = () => {
   }, [isDark]);
 
   return (
-    <header className="border-b dark:border-slate-800">
-
+    <header className="border-b dark:border-slate-800 dark:bg-black">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
-
         {/* Logo */}
 
         <div className="flex items-center gap-2">
-          <img
-            src="/src/image/logo-symbol.svg"
-            alt="Logo"
-            className="h-8 w-8"
-          />
+          <img src={logo} alt="Logo" className="h-8 w-8" />
 
-          <p className="text-xl font-bold">
-            Your Logo
-          </p>
+          <p className="text-xl font-bold">Your Logo</p>
         </div>
 
         {/* Desktop Menu */}
 
         <div className="hidden md:flex items-center gap-10">
-
           {navLinks.map((link) => (
             <a
               key={link.label}
@@ -52,13 +43,11 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-
         </div>
 
         {/* Right Side */}
 
         <div className="flex items-center gap-4">
-
           {/* Dark Mode */}
 
           <button
@@ -76,16 +65,12 @@ const Navbar = () => {
               dark:hover:bg-slate-800
             "
           >
-            {isDark ? (
-              <Sun size={18} />
-            ) : (
-              <Moon size={18} />
-            )}
+            {isDark ? <Sun size={18} /> : <Moon size={18} />}
           </button>
 
           {/* Desktop CTA */}
 
-           <button
+          <button
             className="
               hidden
               md:flex
@@ -100,19 +85,10 @@ const Navbar = () => {
 
           {/* Mobile Menu */}
 
-          <button
-            className="md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? (
-              <X size={24} />
-            ) : (
-              <Menu size={24} />
-            )}
+          <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
-
         </div>
-
       </nav>
 
       {/* Mobile Menu */}
@@ -126,12 +102,8 @@ const Navbar = () => {
           "
         >
           <div className="flex flex-col gap-4">
-
             {navLinks.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-              >
+              <a key={link.label} href={link.href}>
                 {link.label}
               </a>
             ))}
@@ -145,11 +117,9 @@ const Navbar = () => {
             >
               Let's Talk
             </button>
-
           </div>
         </div>
       )}
-
     </header>
   );
 };

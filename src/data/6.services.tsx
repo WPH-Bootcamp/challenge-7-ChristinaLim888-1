@@ -1,65 +1,75 @@
+import web from "@/assets/image/WebDev.svg"
+import mobile from "@/assets/image/mobile.svg"
+import uiux from "@/assets/image/uiux.svg"
+import cloud from "@/assets/image/Cloud.svg"
+import software from "@/assets/image/Software.svg"
+import infras from "@/assets/image/IT Infrastructure.svg"
+import cyber from "@/assets/image/Cybersecurity Services.svg"
+import solution from "@/assets/image/qa-solution.svg"
+import consul from "@/assets/image/IT Consulting & Support.svg"
+
 const services = [
   {
     title: "Web Development",
     description:
       "Build fast, scalable, and SEO-friendly websites.",
-    icon: "/src/image/services/web.png",
+    pic: web,
   },
 
   {
     title: "Mobile App Development",
     description:
       "Native & cross-platform apps tailored to user needs.",
-    icon: "/src/image/services/mobile.png",
+    pic: mobile,
   },
 
   {
     title: "UI/UX Design",
     description:
       "Delight users with intuitive and beautiful interfaces.",
-    icon: "/src/image/services/design.png",
+    pic: uiux,
   },
 
   {
     title: "Cloud Solutions",
     description:
       "Secure and flexible cloud infrastructure for your growth.",
-    icon: "/src/image/services/cloud.png",
+    pic: cloud,
   },
 
   {
     title: "Software Development",
     description:
       "Custom solutions built around your business logic.",
-    icon: "/src/image/services/software.png",
+    pic: software,
   },
 
   {
     title: "IT Infrastructure",
     description:
       "Scale your backend with reliable tech foundations.",
-    icon: "/src/image/services/server.png",
+    pic: infras,
   },
 
   {
     title: "Cybersecurity Services",
     description:
       "Stay protected with enterprise-grade security.",
-    icon: "/src/image/services/security.png",
+    pic: cyber,
   },
 
   {
     title: "QA Solutions",
     description:
       "Ensure performance with rigorous testing frameworks.",
-    icon: "/src/image/services/qa.png",
+    pic: solution,
   },
 
   {
     title: "IT Consulting & Support",
     description:
       "Make smarter tech decisions with expert guidance.",
-    icon: "/src/image/services/support.png",
+    pic: consul,
   },
 ];
 

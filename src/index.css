@@ -6,6 +6,7 @@
  */
 
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 /* Tell Tailwind where to scan for classes */
 @source "./**/*.{js,jsx,ts,tsx}";

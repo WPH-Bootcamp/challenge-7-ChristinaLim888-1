@@ -6,7 +6,7 @@ const heroContent = {
   description:
     "We deliver tailored IT solutions to help you scale with speed and confidence.",
   buttonText: "Let's Talk",
-  image: "/src/image/light.png",
+
 };
 
 export default heroContent;

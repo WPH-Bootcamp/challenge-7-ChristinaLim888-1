@@ -1,16 +1,25 @@
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import {
+  facebook,
+  instagram,
+  linkedin,
+  tiktok,
+} from "@/assets/icons";
 
 const footer = [
   {
-    icon: Facebook,
+    icon: facebook,
     href: "#",
   },
   {
-    icon: Instagram,
+    icon: instagram,
     href: "#",
   },
   {
-    icon: Linkedin,
+    icon: linkedin,
+    href: "#",
+  },
+  {
+    icon: tiktok,
     href: "#",
   },
 ];

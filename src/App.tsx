@@ -19,27 +19,27 @@ import Process from "@/components/sections/4.Process";
 import Services from "@/components/sections/5.Services";
 import Industry from "@/components/sections/6.Industries";
 import Portfolio from "@/components/sections/7.Portfolio";
-import Testimonials from "@/components/sections/8.Testimonials";
+import Partners from "@/components/sections/8.Partners";
 import Faq from "@/components/sections/9.Faq";
 import Contact from "@/components/sections/10.Contact";
+import { Fragment } from "react";
 
 function App() {
   return (
-    <>
+    <div className="dark:bg-black">
       <Navbar />
       <Hero />
-      <Brands />
-      {/* <Statistics /> */}
-      {/* <Process /> */}
-      {/* <Services /> */}
-      {/* <Industry /> */}
-      {/* <Portfolio /> */}
-      {/* <Testimonials /> */}
-      {/* <Faq /> */}
-      {/* <Contact /> */}
-
+      <Brands />z
+      <Statistics />
+      <Process />
+      <Services />
+      <Industry />
+      <Portfolio />
+      <Partners />
+      <Faq />
+      <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 
