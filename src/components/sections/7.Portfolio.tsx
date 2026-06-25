@@ -1,6 +1,6 @@
 import portfolios from "@/data/8.portofolios";
-import Container from "../common/container";
-import SectionHeader from "../common/sectionHeader";
+import Container from "../constants/container";
+import SectionHeader from "../constants/SectionHeader";
 
 const Portfolio = () => {
   return (
@@ -8,11 +8,7 @@ const Portfolio = () => {
       <Container>
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center">
-            <SectionHeader 
-            title="From Vision to Launch! Projects We're Proud Of" 
-            subtitle="Take a closer look at our recent work."  
-            align="center" />
-
+            <SectionHeader title="From Vision to Launch! Projects We're Proud Of" subtitle="Take a closer look at our recent work powering startups, enterprises, and everything in between." align="center" />
           </div>
 
           <div

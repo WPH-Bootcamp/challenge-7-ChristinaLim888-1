@@ -4,8 +4,8 @@ import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
 
 import { services } from "@/data/services";
-import Container from "../common/container";
-import SectionHeader from "../common/sectionHeader";
+import Container from "../constants/container";
+import SectionHeader from "../constants/sectionHeader";
 
 export default function ContactSection() {
   return (
@@ -13,11 +13,7 @@ export default function ContactSection() {
       <Container>
         <div className="mx-auto max-w-4xl px-6">
           <div className="text-center">
-            <SectionHeader
-            title="Ready to Start? Let's Talk."
-            subtitle="Tell us what you need."
-            align="center"
-            />
+            <SectionHeader title="Ready to Start? Let's Talk." subtitle="Tell us what you need." align="center" />
           </div>
 
           <form className="mt-12 space-y-6">
