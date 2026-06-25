@@ -1,7 +1,7 @@
 import navLinks from "@/data/1.navLinks";
 import socialLinks from "@/data/footer";
 import logo from "@/assets/image/logo-symbol.svg";
-import Container from "../common/container";
+import Container from "../constants/container";
 
 const Footer = () => {
   return (

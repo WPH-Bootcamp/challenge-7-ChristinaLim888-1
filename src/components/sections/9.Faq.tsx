@@ -1,8 +1,8 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
-import { faqData } from "@/data/faqData";
-import Container from "../common/container";
-import SectionHeader from "../common/sectionHeader";
+import { faqData } from "@/data/10.faqData";
+import Container from "../constants/container";
+import SectionHeader from "../constants/SectionHeader";
 
 export default function FaqSection() {
   return (

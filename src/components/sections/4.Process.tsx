@@ -1,7 +1,7 @@
 import processSteps from "@/data/5.process";
 import { ChevronUp } from "lucide-react";
-import Container from "../common/container";
-import SectionHeader from "../common/sectionHeader";
+import Container from "../constants/container";
+import SectionHeader from "../constants/SectionHeader";
 
 /*
 jarak antar card nya jangan terlalu luas
@@ -11,13 +11,9 @@ const Process = () => {
   return (
     <section className="">
       <Container>
-        <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-7xl">
           <div className="text-center">
-            <SectionHeader
-            title="Our Process"
-            subtitle="Clear steps. Smart execution. Results you can count on."
-            align="center"
-            />
+            <SectionHeader title="Our Process" subtitle="Clear steps. Smart execution. Results you can count on." align="center" />
           </div>
 
           <div className="relative mt-20">

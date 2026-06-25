@@ -22,7 +22,7 @@ import Portfolio from "@/components/sections/7.Portfolio";
 import Partners from "@/components/sections/8.Partners";
 import Faq from "@/components/sections/9.Faq";
 import Contact from "@/components/sections/10.Contact";
-import { Fragment } from "react";
+// import { Fragment } from "react";
 
 function App() {
   return (

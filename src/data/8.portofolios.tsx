@@ -1,20 +1,24 @@
+import porto1 from "@/assets/image/porto1.svg"
+import porto2 from "@/assets/image/porto2.svg"
+import porto3 from "@/assets/image/porto3.svg"
+
 const portfolios = [
   {
     category: "Landing Page",
     title: "Portfolio 1",
-    image: "/src/image/portfolio-1.png",
+    image: porto1,
   },
 
   {
     category: "Landing Page",
     title: "Portfolio 2",
-    image: "/src/image/portfolio-2.png",
+    image: porto2,
   },
 
   {
     category: "Landing Page",
     title: "Portfolio 3",
-    image: "/src/image/portfolio-3.png",
+    image: porto3,
   },
 ];
 
